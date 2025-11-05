@@ -1,0 +1,147 @@
+body {
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: Arial, sans-serif;
+margin: 0;
+
+
+  background-image: url('../imagen/25545.jpg'); /* 🔹 Ruta de tu imagen */
+  background-size: cover;      /* 🔹 La imagen cubre toda la pantalla */
+  background-position: center; /* 🔹 Centrada */
+  background-repeat: no-repeat; /* 🔹 No se repite */
+}
+
+
+
+
+
+form {
+
+
+width: 300px; /* Ancho del formulario */
+border: 2px solid black; /* Borde del formulario */
+padding: 6rem;
+background-color: rgba(0, 0, 0, 0.484);
+border: none;
+border-radius: 20px;
+color: aliceblue;
+
+
+
+
+
+}
+
+
+
+
+.boton {
+  width: 100%;
+  padding: 12px;
+ 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;}
+
+p{
+
+text-align: center;
+
+
+
+}
+
+h2 {
+
+display: block; /* 🔹 Asegura que el h2 se comporte como un bloque */
+border: 2px solid black; /* Borde del h2 */
+width: 95% ; /* Ancho del h2 */
+padding: 10px; /* Espaciado interno */
+margin: 10px 0; /* Margen superior e inferior */
+border-radius: 10px; /* Bordes redondeados */
+text-align: center; 
+
+
+  font-size: 48px;     /* 🔹 tamaño de la letra */
+  font-weight: bold;   /* 🔹 negrita (opcional) */
+  color: #ffffff;         /* 🔹 color del texto */
+  text-align: center;  /* 🔹 centrado (opcional) */
+
+
+
+
+}
+
+
+
+
+
+
+
+input {
+
+    
+    background: #f0c000; 
+    padding: .5rem; /* Espaciado interno */
+    color: aliceblue; 
+    border : none; /* Sin borde */
+    width: 40%; /* Ancho del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    
+   text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+
+
+}
+.register {
+    color: white;
+    text-decoration: none;
+}
+
+.register:hover {
+    text-decoration: none;
+    color: white;
+}
+
+input:hover{ 
+ background-color: white;
+    color: black;
+    
+    
+
+}
+
+.registro2 {
+
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+input{
+display: block;
+border: 2px solid black;
+width:95% ;
+padding: 10px;
+margin: 10px;
+border-radius: 10px;
+
+
+
+}
